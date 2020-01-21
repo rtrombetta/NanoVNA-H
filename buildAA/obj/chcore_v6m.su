@@ -1,0 +1,2 @@
+chcore_v6m.c:61:6:NMI_Handler	8	static
+chcore_v6m.c:110:6:_port_irq_epilogue	16	static

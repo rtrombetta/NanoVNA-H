@@ -1,0 +1,6 @@
+hal_i2s.c:56:6:i2sInit	8	static
+hal_i2s.c:68:6:i2sObjectInit	0	static
+hal_i2s.c:82:6:i2sStart	8	static
+hal_i2s.c:102:6:i2sStop	8	static
+hal_i2s.c:121:6:i2sStartExchange	8	static
+hal_i2s.c:140:6:i2sStopExchange	8	static

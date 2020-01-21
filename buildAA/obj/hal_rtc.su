@@ -1,0 +1,9 @@
+hal_rtc.c:67:6:rtcInit	8	static
+hal_rtc.c:81:6:rtcObjectInit	0	static
+hal_rtc.c:104:6:rtcSetTime	8	static
+hal_rtc.c:125:6:rtcGetTime	8	static
+hal_rtc.c:148:6:rtcSetAlarm	8	static
+hal_rtc.c:174:6:rtcGetAlarm	8	static
+hal_rtc.c:220:6:rtcConvertDateTimeToStructTm	24	static
+hal_rtc.c:251:6:rtcConvertStructTmToDateTime	20	static
+hal_rtc.c:284:10:rtcConvertDateTimeToFAT	24	static

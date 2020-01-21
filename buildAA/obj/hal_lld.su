@@ -1,0 +1,4 @@
+hal_lld.c:105:1:Vector68	16	static
+hal_lld.c:125:1:Vector6C	16	static
+hal_lld.c:224:6:hal_lld_init	8	static
+hal_lld.c:254:6:stm32_clock_init	0	static

@@ -1,0 +1,6 @@
+hal_i2c_lld.c:400:1:Vector9C	24	static
+hal_i2c_lld.c:622:6:i2c_lld_init	8	static
+hal_i2c_lld.c:672:6:i2c_lld_start	16	static
+hal_i2c_lld.c:867:6:i2c_lld_stop	8	static
+hal_i2c_lld.c:964:7:i2c_lld_master_receive_timeout	24	static
+hal_i2c_lld.c:1068:7:i2c_lld_master_transmit_timeout	24	static

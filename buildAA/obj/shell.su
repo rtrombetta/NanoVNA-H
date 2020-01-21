@@ -1,0 +1,5 @@
+shell.c:58:14:parse_arguments	16	static
+shell.c:409:6:shellInit	0	static
+shell.c:424:6:shellExit	8	static
+shell.c:454:6:shellGetLine	32	static
+shell.c:333:1:shellThread	144	static

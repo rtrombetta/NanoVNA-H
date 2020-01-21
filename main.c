@@ -649,14 +649,14 @@ config_t config = {
   .touch_cal =         { 370, 540, 154, 191 },  //{ 620, 600, 160, 190 },
   .default_loadcal =   0,
   .harmonic_freq_threshold = 300000000,
-  .vbat_offset =       480,
+  .vbat_offset =       150,  // 330 480
   .checksum =          0
 };
 
 properties_t current_props = {
   .magic =              CONFIG_MAGIC,
   ._frequency0 =        50000, // start = 50kHz
-  ._frequency1 =        900000000, // end = 900MHz
+  ._frequency1 =        1500000000, // end = 900MHz
   ._sweep_points =      POINT_COUNT,
   ._cal_status =        0,
   //._frequencies =     {},

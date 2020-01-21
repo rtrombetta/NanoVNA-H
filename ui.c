@@ -633,7 +633,62 @@ show_version(void)
   touch_start_watchdog();
 }
 
+void
+show_logo(void)
+{
+  int x = 25, y = 50;
+  int stx;
 
+  ili9341_fill(0, 0, 320, 240, 0);
+
+  // 0xf00f - verde
+  // 0xf0f0 - vermelho
+  // 0xf0ff - amarelo
+  // 0xff00 - azul  
+  // 0xff0f - ciano
+  // 0xfff0 - roxo 
+  // 0xffff - branco
+  // size = 5 * x
+#if !defined(ANTENNA_ANALYZER)
+  ili9341_drawstring_size("Nano", x, y, 0xffff, 0x0000, 4);
+  ili9341_drawstring_size("V", 105, y, 0xf00f, 0x0000, 4);
+  ili9341_drawstring_size("N", 125, y, 0xf0ff, 0x0000, 4);
+  ili9341_drawstring_size("A", 145, y, 0xff00, 0x0000, 4);
+  ili9341_drawstring_size(".com.br", 165, y, 0xffff, 0x0000, 4);
+  y += 55;
+  stx = 160 - (((strlen(VERSION) + 11) * 5) / 2);
+  ili9341_drawstring_5x7("Versao: ", stx, y, 0xf00f, 0x0000);
+  ili9341_drawstring_5x7(VERSION "-BR", stx += 40, y, 0xffff, 0x0000);
+  y += 35;
+  ili9341_drawstring_5x7("Compilado em: ", 70, y, 0xf0ff, 0x0000);
+  ili9341_drawstring_5x7(__DATE__ " - " __TIME__, 140, y, 0xffff, 0x0000);
+  y += 35;
+  ili9341_drawstring_5x7("2016-2020", 95, y, 0xff00, 0x0000);
+  ili9341_drawstring_5x7("Copyright @edy555", 145, y, 0xffff, 0x0000);
+#else
+  ili9341_drawstring_size("Nano", x, y, 0xffff, 0x0000, 3);
+  ili9341_drawstring_size("V", 105, y, 0xf00f, 0x0000, 3);
+  ili9341_drawstring_size("N", 125, y, 0xf0ff, 0x0000, 3);
+  ili9341_drawstring_size("A", 145, y, 0xff00, 0x0000, 3);
+  ili9341_drawstring_size(".com.br", 165, y, 0xffff, 0x0000, 3);
+  y += 55;
+  stx = 160 - (((strlen(VERSION) + 11) * 7) / 2);
+  ili9341_drawstring_7x13("Versao: ", stx, y, 0xf00f, 0x0000);
+  ili9341_drawstring_7x13(VERSION "-BR", stx + 54, y, 0xffff, 0x0000);
+  y += 35;
+  stx = 160 - (((strlen(__DATE__ " - " __TIME__) + 14) * 7) / 2);
+  ili9341_drawstring_7x13("Compilado em: ", stx, y, 0xf0ff, 0x0000);
+  ili9341_drawstring_7x13(__DATE__ " - " __TIME__, stx + 98, y, 0xffff, 0x0000);
+  y += 35;
+  stx = 160 - (((10 + 17) * 7) / 2);
+  ili9341_drawstring_7x13("2016-2020", stx, y, 0xff00, 0x0000);
+  ili9341_drawstring_7x13("Copyright @edy555", stx + 70, y, 0xffff, 0x0000);
+#endif
+  uint32_t ticks = chVTGetSystemTime() + 15000; // 1s = 5000
+  while (ticks > chVTGetSystemTime());
+}
+
+/*
 void
 show_logo(void)
 {
@@ -669,8 +724,7 @@ show_logo(void)
     ili9341_drawstring_7x13("Build Time: " __DATE__ " - " __TIME__, x, y += 15, 0xffff, 0x0000);
 #endif
 }
-
-
+*/
 
 void enter_dfu(void)
 {

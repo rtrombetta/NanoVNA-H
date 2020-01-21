@@ -1,0 +1,8 @@
+hal_gpt_lld.c:197:1:Vector80	8	static
+hal_gpt_lld.c:406:6:gpt_lld_init	8	static
+hal_gpt_lld.c:488:6:gpt_lld_start	16	static
+hal_gpt_lld.c:695:6:gpt_lld_stop	8	static
+hal_gpt_lld.c:820:6:gpt_lld_start_timer	0	static
+hal_gpt_lld.c:842:6:gpt_lld_stop_timer	0	static
+hal_gpt_lld.c:862:6:gpt_lld_polled_delay	0	static
+hal_gpt_lld.c:879:6:gpt_lld_serve_interrupt	8	static

@@ -1,0 +1,7 @@
+adc.c:31:6:adc_init	0	static
+adc.c:59:10:adc_single_read	0	static
+adc.c:96:9:adc_vbat_read	24	static
+adc.c:110:9:adc_tjun_read	24	static
+adc.c:125:6:adc_start_analog_watchdogd	0	static
+adc.c:148:6:adc_stop	0	static
+adc.c:179:1:Vector70	8	static

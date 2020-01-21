@@ -1,0 +1,2 @@
+hal_pal_lld.c:88:6:_pal_lld_init	0	static
+hal_pal_lld.c:159:6:_pal_lld_setgroupmode	48	static

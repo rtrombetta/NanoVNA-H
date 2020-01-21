@@ -1,0 +1,10 @@
+si5351.c:45:13:si5351_bulk_write	32	static
+si5351.c:143:13:si5351_setupPLL	40	static
+si5351.c:35:13:si5351_write	40	static
+si5351.c:200:13:si5351_setupMultisynth	80	static
+si5351.c:290:13:si5351_set_frequency_fixedpll	64	static
+si5351.c:308:13:si5351_set_frequency_fixeddiv	48	static
+si5351.c:26:13:si5351_bulk_read.constprop	40	static
+si5351.c:107:6:si5351_init	32	static
+si5351.c:332:6:si5351_set_frequency	24	static
+si5351.c:354:5:si5351_set_frequency_with_offset	48	static

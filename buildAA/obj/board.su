@@ -1,0 +1,2 @@
+board.c:70:6:__early_init	8	static
+board.c:93:6:boardInit	0	static

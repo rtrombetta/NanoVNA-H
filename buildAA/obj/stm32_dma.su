@@ -1,0 +1,4 @@
+stm32_dma.c:204:1:Vector64	8	static
+stm32_dma.c:431:6:dmaInit	8	static
+stm32_dma.c:469:6:dmaStreamAllocate	32	static
+stm32_dma.c:524:6:dmaStreamRelease	16	static

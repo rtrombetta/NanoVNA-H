@@ -1,0 +1,17 @@
+hal_usb_lld.c:391:1:VectorBC	72	static
+hal_usb_lld.c:460:6:usb_lld_init	8	static
+hal_usb_lld.c:473:6:usb_lld_start	16	static
+hal_usb_lld.c:505:6:usb_lld_stop	8	static
+hal_usb_lld.c:559:6:usb_lld_set_address	0	static
+hal_usb_lld.c:572:6:usb_lld_init_endpoint	28	static
+hal_usb_lld.c:529:6:usb_lld_reset	8	static
+hal_usb_lld.c:660:6:usb_lld_disable_endpoints	0	static
+hal_usb_lld.c:685:15:usb_lld_get_status_out	0	static
+hal_usb_lld.c:710:15:usb_lld_get_status_in	0	static
+hal_usb_lld.c:737:6:usb_lld_read_setup	8	static
+hal_usb_lld.c:759:6:usb_lld_start_out	16	static
+hal_usb_lld.c:780:6:usb_lld_start_in	16	static
+hal_usb_lld.c:803:6:usb_lld_stall_out	0	static
+hal_usb_lld.c:818:6:usb_lld_stall_in	0	static
+hal_usb_lld.c:833:6:usb_lld_clear_out	0	static
+hal_usb_lld.c:851:6:usb_lld_clear_in	0	static

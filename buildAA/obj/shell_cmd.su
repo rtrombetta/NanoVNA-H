@@ -1,0 +1,3 @@
+shell_cmd.c:72:13:cmd_info	16	static
+shell_cmd.c:147:13:cmd_threads	64	static
+shell_cmd.c:59:13:cmd_exit	8	static
