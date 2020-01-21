@@ -1,4 +1,0 @@
-tlv320aic3204.c:89:13:tlv320aic3204_bulk_write	32	static
-tlv320aic3204.c:119:6:tlv320aic3204_init	16	static
-tlv320aic3204.c:128:6:tlv320aic3204_select	40	static
-tlv320aic3204.c:145:6:tlv320aic3204_set_gain	32	static

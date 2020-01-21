@@ -1,3 +1,0 @@
-chprintf.c:121:5:chvprintf	120	static
-chprintf.c:302:5:chprintf	12	static
-chprintf.c:341:5:chsnprintf	40	static

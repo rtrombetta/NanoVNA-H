@@ -1,9 +1,0 @@
-hal_i2c.c:59:6:i2cInit	8	static
-hal_i2c.c:71:6:i2cObjectInit	8	static
-hal_i2c.c:93:6:i2cStart	8	static
-hal_i2c.c:113:6:i2cStop	8	static
-hal_i2c.c:133:12:i2cGetErrors	0	static
-hal_i2c.c:166:7:i2cMasterTransmitTimeout	24	static
-hal_i2c.c:217:7:i2cMasterReceiveTimeout	16	static
-hal_i2c.c:257:6:i2cAcquireBus	8	static
-hal_i2c.c:273:6:i2cReleaseBus	8	static

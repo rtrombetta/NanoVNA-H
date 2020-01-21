@@ -1,5 +1,0 @@
-hal_rtc_lld.c:294:6:rtc_lld_init	8	static
-hal_rtc_lld.c:334:6:rtc_lld_set_time	32	static
-hal_rtc_lld.c:363:6:rtc_lld_get_time	32	static
-hal_rtc_lld.c:418:6:rtc_lld_set_alarm	16	static
-hal_rtc_lld.c:471:6:rtc_lld_get_alarm	0	static

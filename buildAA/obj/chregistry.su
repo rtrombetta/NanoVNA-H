@@ -1,5 +1,0 @@
-chregistry.c:134:11:chRegFirstThread	0	static
-chregistry.c:158:11:chRegNextThread	0	static
-chregistry.c:194:11:chRegFindThreadByName	16	static
-chregistry.c:221:11:chRegFindThreadByPointer	0	static
-chregistry.c:250:11:chRegFindThreadByWorkingArea	0	static

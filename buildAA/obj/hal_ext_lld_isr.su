@@ -1,7 +1,0 @@
-hal_ext_lld_isr.c:56:1:Vector54	16	static
-hal_ext_lld_isr.c:77:1:Vector58	16	static
-hal_ext_lld_isr.c:98:1:Vector5C	16	static
-hal_ext_lld_isr.c:142:1:Vector44	8	static
-hal_ext_lld_isr.c:163:1:Vector48	16	static
-hal_ext_lld_isr.c:231:6:ext_lld_exti_irq_enable	8	static
-hal_ext_lld_isr.c:248:6:ext_lld_exti_irq_disable	8	static

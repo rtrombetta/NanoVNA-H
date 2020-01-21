@@ -1,6 +1,0 @@
-hal_i2s_lld.c:162:13:i2s_lld_serve_rx_interrupt	16	static
-hal_i2s_lld.c:232:6:i2s_lld_init	8	static
-hal_i2s_lld.c:378:6:i2s_lld_start	16	static
-hal_i2s_lld.c:581:6:i2s_lld_stop	8	static
-hal_i2s_lld.c:620:6:i2s_lld_start_exchange	12	static
-hal_i2s_lld.c:668:6:i2s_lld_stop_exchange	12	static
