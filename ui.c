@@ -688,44 +688,6 @@ show_logo(void)
   while (ticks > chVTGetSystemTime());
 }
 
-/*
-void
-show_logo(void)
-{
-  int x = 15, y = 30;
-  ili9341_fill(0, 0, 320, 240, 0);
-#if !defined(ANTENNA_ANALYZER)
-  ili9341_drawstring_size(BOARD_NAME, x+60, y, RGBHEX(0x0000FF), 0x0000, 4);
-  y += 25;
-
-  ili9341_drawstring_size("NANOVNA.COM", x+100, y += 10, 0xffff, 0x0000, 2);
-  ili9341_drawstring_5x7("https://github.com/hugen79/NanoVNA-H", x, y += 20, 0xffff, 0x0000);
-  ili9341_drawstring_5x7("Based on edy555 design", x, y += 10, 0xffff, 0x0000);
-  ili9341_drawstring_5x7("2016-2019 Copyright @edy555", x, y += 10, 0xffff, 0x0000);
-  ili9341_drawstring_5x7("Licensed under GPL. See: https://github.com/ttrftech/NanoVNA", x, y += 10, 0xffff, 0x0000);
-  ili9341_drawstring_5x7("Version: " VERSION, x, y += 10, 0xffff, 0x0000);
-  ili9341_drawstring_5x7("Build Time: " __DATE__ " - " __TIME__, x, y += 10, 0xffff, 0x0000);
-//  y += 5;
-//  ili9341_drawstring_5x7("Kernel: " CH_KERNEL_VERSION, x, y += 10, 0xffff, 0x0000);
-//  ili9341_drawstring_5x7("Architecture: " PORT_ARCHITECTURE_NAME " Core Variant: " PORT_CORE_VARIANT_NAME, x, y += 10, 0xffff, 0x0000);
-//  ili9341_drawstring_5x7("Port Info: " PORT_INFO, x, y += 10, 0xffff, 0x0000);
-//  ili9341_drawstring_5x7("Platform: " PLATFORM_NAME, x, y += 10, 0xffff, 0x0000);
-
-#else
-  ili9341_drawstring_size(BOARD_NAME, x+80, y, RGBHEX(0x0000FF), 0x0000, 2);
-    y += 14;
-
-    ili9341_drawstring_7x13("NANOVNA.COM", x+100, y += 15, 0xffff, 0x0000);
-    ili9341_drawstring_7x13("https://github.com/hugen79/NanoVNA-H", x, y += 15, 0xffff, 0x0000);
-    ili9341_drawstring_7x13("Based on edy555 design", x, y += 15, 0xffff, 0x0000);
-    ili9341_drawstring_7x13("2016-2019 Copyright @edy555", x, y += 15, 0xffff, 0x0000);
-    ili9341_drawstring_7x13("https://github.com/ttrftech/NanoVNA", x, y += 15, 0xffff, 0x0000);
-    ili9341_drawstring_7x13("Version: " VERSION, x, y += 15, 0xffff, 0x0000);
-    ili9341_drawstring_7x13("Build Time: " __DATE__ " - " __TIME__, x, y += 15, 0xffff, 0x0000);
-#endif
-}
-*/
-
 void enter_dfu(void)
 {
   adc_stop(ADC1);
